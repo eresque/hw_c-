@@ -40,7 +40,7 @@ void task_3(int temp)
     case 5: cout << "пять" << endl; break;
     case 6: cout << "шесть" << endl; break;
     case 7: cout << "семь" << endl; break;
-    case 8: cout << "восьма" << endl; break;
+    case 8: cout << "восемь" << endl; break;
     case 9: cout << "девять" << endl; break;
     case 10: cout << "десять" << endl; break;
 }
@@ -50,8 +50,7 @@ void task_3(int temp)
 
 int main() 
 {
-    int num_1;
-    int num_2;
+    int num_1, num_2;
     vector <int> arr;
     cin >> num_1;
     arr = task_1(num_1, arr);

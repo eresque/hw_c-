@@ -19,11 +19,11 @@ vector <int>  task_1(int num, vector <int> v)
     return v;
 }
     
-void task_2(vector <int> gege)
+void task_2(vector <int> tmp)
 {
-    reverse(begin(gege), end(gege));
+    reverse(begin(tmp), end(tmp));
     cout << "Вывод задания №2:" << endl;
-    for (auto s : gege) {
+    for (auto s : tmp) {
         cout << s << " ";
     }
     cout << endl;
@@ -40,7 +40,7 @@ void task_3(int temp)
     case 5: cout << "пять" << endl; break;
     case 6: cout << "шесть" << endl; break;
     case 7: cout << "семь" << endl; break;
-    case 8: cout << "восьма" << endl; break;
+    case 8: cout << "восемь" << endl; break;
     case 9: cout << "девять" << endl; break;
     case 10: cout << "десять" << endl; break;
 }
@@ -50,8 +50,7 @@ void task_3(int temp)
 
 int main() 
 {
-    int num_1;
-    int num_2;
+    int num_1, num_2;
     vector <int> arr;
     cin >> num_1;
     arr = task_1(num_1, arr);

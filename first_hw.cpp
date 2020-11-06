@@ -19,11 +19,11 @@ vector <int>  task_1(int num, vector <int> v)
     return v;
 }
     
-void task_2(vector <int> gege)
+void task_2(vector <int> tmp)
 {
-    reverse(begin(gege), end(gege));
+    reverse(begin(tmp), end(tmp));
     cout << "Вывод задания №2:" << endl;
-    for (auto s : gege) {
+    for (auto s : tmp) {
         cout << s << " ";
     }
     cout << endl;
